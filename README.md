@@ -9,7 +9,7 @@ pip install pkbar tensorboard tqdm matplotlib biopython pandas
 Run
 ```bash
 # atypes = HA, H, CA, CB, C, N
-python run.py {pdb_file}
+python run.py {pdb_file(s)} [-b {BATCH_SIZE}] [-atype {INTERESTED_ATYPES}] [-t {TOPOLOGY}]
 ```
 
 Example
